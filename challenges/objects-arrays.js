@@ -5,7 +5,7 @@
   Use this pattern to create your objects:
   object name, diet, weight, length, period
 */
-function dinosaur(name, diet, weight, dinoLength, period) {
+function Dinosaur(name, diet, weight, dinoLength, period) {
   this.name = name;
   this.diet = diet;
   this.weight = weight;
@@ -14,13 +14,13 @@ function dinosaur(name, diet, weight, dinoLength, period) {
 }
 
 // tyrannosaurus, carnivorous, 7000kg, 12m, Late Cretaceous
-const tyrannosaurus = new dinosaur('tyrannosaurus', 'carnivorous', '7000kg', '12m', 'Late Cretaceous');
+const tyrannosaurus = new Dinosaur('tyrannosaurus', 'carnivorous', '7000kg', '12m', 'Late Cretaceous');
 
 // stegosaurus, herbivorous, 2000kg, 9m, Late Jurassic
-const stegosaurus = new dinosaur('stegosaurus', 'herbivorous', '2000kg', '9m', 'Late Jurassic');
+const stegosaurus = new Dinosaur('stegosaurus', 'herbivorous', '2000kg', '9m', 'Late Jurassic');
 
 // velociraptor, carnivorous, 15kg, 1.8m, Late Cretaceous
-const velociraptor = new dinosaur('velociraptor', 'carnivorous', '15kg', '1.8m', 'Late Cretaceous');
+const velociraptor = new Dinosaur('velociraptor', 'carnivorous', '15kg', '1.8m', 'Late Cretaceous');
 
 // Using your dinosaur objects, log answers to these questions:
 

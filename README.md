@@ -56,6 +56,7 @@ Edit this document to include your answers after each question. Make sure to lea
   - `myCoolFunction.apply([obj1, obj2, obj3])`
   - `const myBoundFn = myCoolFunction.bind(myNewObject)`
 - new
+  - The `new` keyword allows us to use constructor functions to create object instances. You can think of `new` as the basis for creating an object blueprint. In es5, `new` is used in combination with `prototypes`, explicit binding, and `Object.create()` to achieve psuedo-classical inheritance in JavaScript. In es6+, `new` is used with the `class` syntax to apply syntactic sugar on top of prototypal classical inheritance in JavaScript.
 
 5. Why do we need super() in an extended class?
 

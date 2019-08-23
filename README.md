@@ -30,9 +30,15 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+- The biggest difference between `.forEach` and `.map` is that `.map` returns an array with each element being the result of a callback function while `.forEach` returns `undefined`.
+
 2. What is the difference between a function and a method?
 
+- A method is a function attached to an object
+
 3. What is closure?
+
+- A closure is the combination of a function and the lexical environment within which that function was declared. Metaphorically speaking, a state in the USA forms a closure. The state inherits all the variables and methods contained within the USA, but has its own variables and methods that it can apply to the inherited properties from the USA. The state forms a closure containing its land and laws within the scope of the USA's land and laws.
 
 4. Describe the four rules of the 'this' keyword.
 

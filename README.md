@@ -47,6 +47,7 @@ Edit this document to include your answers after each question. Make sure to lea
   - When `this` is referenced in a function body, it refers to the global scope (the window in browsers and the console in node). In `strict` mode, global `this` returns `undefined`.
 
 - Implicit
+  - Implicit binding only refers to objects with methods. In order to understand what `this` refers to when using implicit binding, look to the left of the `.` when an object method is invoked. For example, in this code --> `myGreatObject.myCoolMethod()` `myGreatObject` is our reference to `this` in the context of the method `myCoolMethod`.
 - Explicit
 - new
 

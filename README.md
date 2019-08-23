@@ -42,9 +42,10 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. Describe the four rules of the 'this' keyword.
 
--Global/Window
+- Global/Window
 
-- - When `this` is referenced in a function body, it refers to the global scope (the window in browsers and the console in node). In `strict` mode, global `this` returns `undefined`.
+  - When `this` is referenced in a function body, it refers to the global scope (the window in browsers and the console in node). In `strict` mode, global `this` returns `undefined`.
+
 - Implicit
 - Explicit
 - new

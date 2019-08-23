@@ -10,6 +10,7 @@ function CuboidMaker(cLength, cWidth, cHeight) {
   this.cWidth = cWidth;
   this.cHeight = cHeight;
 }
+const test_CuboidMaker = new CuboidMaker(2, 3, 4);
 
 /* == Step 2: Volume Method ==
   Create a method using CuboidMaker's prototype that returns the volume of a given cuboid's length, width, and height
@@ -20,7 +21,6 @@ CuboidMaker.prototype.volume = function() {
   return this.cLength * this.cWidth * this.cHeight;
 };
 
-const test_CuboidMaker = new CuboidMaker(2, 3, 4);
 console.log(test_CuboidMaker.volume());
 
 /* == Step 3: Surface Area Method ==

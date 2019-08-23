@@ -60,6 +60,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. Why do we need super() in an extended class?
 
+- When we `extend` a class, we build a bridge from the class we're creating to the parent (extended) class. The `super()` function, then, is a train picking up the properties of the parent class and shuttling them to our new class.
+
 ## Project Set up
 
 Follow these steps to set up and work on your project:
